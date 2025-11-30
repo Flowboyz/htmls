@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            overflow: hidden;
+        }
+        .head{
+            display: flex;
+            justify-content: space-between;
+            position: relative;
+        }
+        .nav{
+            position: fixed;
+            display: flex;
+            right: 0;
+            top: 0;
+            list-style: none;
+            gap: 10px;
+            flex-direction: column;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            height: 100vh;
+            background-color: blue;
+            translate: 400%;
+            transition: 1s;
+        }
+       input{
+        /* display: ; */
+        height: 0px;
+        width: 0px;
+       }
+       label{
+        height: 20px;
+        width: 20px;
+        background-color: yellow;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        z-index: 5;
+       }
+       label:has(input:checked)   + .nav{
+        translate: 0;
+       }
+    </style>
+</head>
+<body>
+    <header class="head">
+    <p>ZAMMMY TECHNOLOGIES</p>
+    <label>
+                <input type="checkbox">
+            </label>
+
+            <nav class="nav">
+             <li>home</li>
+             <li>about</li>
+             <li>exercise</li>
+             <li>summary</li>
+             <li>navigate</li>
+            </ul>
+        </nav>
+    </header>
+    
+</body>
+</html>

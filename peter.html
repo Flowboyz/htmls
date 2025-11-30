@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p><span>current year : </span><span id="current year"></span></p>
+    <p><span>birth year : </span><span><input type="date" id="birth year"></span></p>
+    <p><span>how old are you : </span><span id="age"></span></p>
+    <script>
+        document.getElementById("current year").innerHTML=new Date().getFullYear()
+       document.getElementById('birth year').onchange = ()=>{
+        let dob = document.getElementById('birth year'). value
+        document.getElementById("age").innerHTML=new Date().getFullYear() - new Date(dob).getFullYear()
+    }
+    </script>
+</body>
+</html>

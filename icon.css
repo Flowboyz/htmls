@@ -1,0 +1,108 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(206, 192, 192);
+}
+a:link{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: green;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    margin:  40px 0;
+    padding: 20px 0;
+    background-color: #000;
+    font-size: 20px;
+}
+.style{
+    border: 2px solid white;
+    background-color: rgb(65, 230, 95);
+    margin-right: 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+.style:hover{
+    background-color:white;
+    color: rgb(95, 230, 95);
+    border: 2px solid rgb(95, 230, 95);
+}
+.style1{
+    border: 2px solid rgb(95, 230, 95);
+    background-color: white;
+    margin-right: 20px;
+    border-radius: 5px;
+    color: rgb(65, 230, 95);
+    font-size: 20px;
+}
+.style1:hover{
+    background-color: rgb(65, 230, 95);
+    color: white;
+    border: 2px solid white;
+}
+.contain{
+    display: flex;
+    justify-content: space-between;
+}
+.containn{
+    height: 100%;
+    border-radius: 70px;
+    width: 70vh;
+}
+.container2{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.stylee{
+    border: 2px solid  rgb(206, 192, 192);
+    margin: 5px 5px;
+    padding: 10px 10px;
+    background-color: #000;
+    border-radius: 5px;
+    color: rgb(206, 192, 192);
+}
+.stylee:hover{
+    background-color: rgb(206, 192, 192);
+    color: #000;
+    border: 2px solid #000;
+}
+.stylee1{
+    border: 2px solid #000;
+    margin: 5px 5px;
+    padding: 10px 10px;
+    background-color: rgb(206, 192, 192);
+    border-radius: 5px;
+}
+.stylee1:hover{
+    background-color: #000;
+    color: rgb(206, 192, 192);
+    border: 2px solid rgb(206, 192, 192);
+}
+.boom{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.last{
+    display: grid;
+    padding: 15px 25px;
+   display: flex;
+    gap: 10px;    
+}
+.yellow{
+    background-color: white;
+    padding: 2rem;
+    margin: 1rem;
+    width: 50vh;
+    height: 20vh;
+    border-radius: 50%;
+}
+i{
+    padding-left: 30px;
+}
